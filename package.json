@@ -1,0 +1,43 @@
+{
+  "name": "solvehub",
+  "version": "0.1.0",
+  "description": "Node client for the SolveHub CAPTCHA API - one REST endpoint for authorized anti-bot testing",
+  "type": "module",
+  "main": "index.js",
+  "types": "types/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./types/index.d.ts",
+      "default": "./index.js"
+    }
+  },
+  "files": [
+    "index.js",
+    "types"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "example": "node examples/turnstile.mjs"
+  },
+  "keywords": [
+    "captcha",
+    "turnstile",
+    "datadome",
+    "perimeterx",
+    "imperva",
+    "aws-waf",
+    "scraping",
+    "anti-bot"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seencxy/solvehub-node.git"
+  },
+  "homepage": "https://www.tiam.codes",
+  "bugs": {
+    "url": "https://github.com/seencxy/solvehub-node/issues"
+  }
+}
