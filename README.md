@@ -105,6 +105,13 @@ const results = await Promise.all(
 `solve()` and `wait()` are conveniences on top of the above. A task that stays `uncertain`
 (a challenge the solver could not judge) is **not** terminal: polling continues.
 
+## Links
+
+- Website and docs: <https://www.tiam.codes>
+- API reference: <https://www.tiam.codes/docs>
+- Python client: [solvehub-python](https://github.com/seencxy/solvehub-python)
+- Cookie glossary: <https://seencxy.github.io/glossary/> — what `_abck`, `reese84`, `_px3` and `cf_clearance` each contain, and why they expire (English, 日本語, Bahasa Indonesia)
+
 ## Types
 
 `types/index.d.ts` ships with the package; `SolveHub` accepts `{ baseUrl, timeout }` options.
